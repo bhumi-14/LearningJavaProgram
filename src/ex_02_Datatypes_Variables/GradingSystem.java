@@ -12,7 +12,7 @@ public class GradingSystem {
     //F: 0-59
     // without using scanner
     public static void main(String[] args) {
-        int x=84;
+        int x=80;
         if(x>=90 && x<=100){
             System.out.println("candidate passed with A grade");
         } else if (x>=80 && x<=89) {
