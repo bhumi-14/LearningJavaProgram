@@ -7,14 +7,14 @@ public class FibbonacciSeries {
     //The Fibonacci Sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1.
     //Formula:F(n)=F(n−1)+F(n−2)F(n) = F(n-1) + F(n-2)F(n)=F(n−1)+F(n−2)
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the number of terms: ");
-        int n = scanner.nextInt();
+    //  Scanner scanner = new Scanner(System.in);
+    //  System.out.print("Enter the number of terms: ");
+        int n=11;//ner.nextInt();
         System.out.println("Fibonacci sequence up to " + n + " terms:");
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci(i) + " ");
         }
-        scanner.close();
+   //   scanner.close();
     }
     public static int fibonacci(int n) {
         if (n == 0) {
