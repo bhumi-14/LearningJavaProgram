@@ -13,7 +13,6 @@ public void displayStudent(){
     System.out.println("age: "+ age);
 }
 // 2. Without Parameters but With Return Type
-
     public String getStudentDetails() {
         return "name: "+ name + ", Age: "+age;
     }
